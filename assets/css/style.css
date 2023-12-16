@@ -13,8 +13,8 @@
 body{
     display: grid;
     background: #dfe9f5;
-    grid-template-columns: 280px auto;
-    grid-template-rows: auto 60px;
+    grid-template-columns: 220px auto;
+    grid-template-rows: auto 30px;
     grid-template-areas: 
     "nav main"
     "nav footer";
@@ -87,7 +87,7 @@ body{
 }
 
 .nav:hover {
-    width: 280px;
+    width: 220px;
     transition: all 0.5s ease;
 }
 
@@ -143,22 +143,26 @@ main {
     opacity: 1;
 }
 
-.vengadores {
+section {
+    grid-area: main;
     display: flex;
-    width: 1500px;
-    height: 450px;
-    
+    justify-content: center;
+    align-content: center;
+    min-height: 90vh;
+    margin-top: 20px;
+    width: 1680px;
+    height: 500px; 
 }
 
-.vengadores img {
-    width: 50px;
+section img {
+    width: 0px;
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
     transition: .5s ease;
 }
 
-.vengadores img:hover {
+section img:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
@@ -171,6 +175,7 @@ footer {
     grid-area: footer;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
     bottom: 0;
 }
 
