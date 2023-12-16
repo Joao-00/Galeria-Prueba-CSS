@@ -143,7 +143,27 @@ main {
     opacity: 1;
 }
 
+.vengadores {
+    display: flex;
+    width: 1500px;
+    height: 450px;
+    
+}
 
+.vengadores img {
+    width: 50px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.vengadores img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
 
 /*------------------- Footer --------------------*/
 footer {
@@ -159,13 +179,13 @@ footer {
 
 @media (max-width: 768px) {
     /*------------------- General --------------------*/
-    
-    
+
+
     
     /*------------------- Navbar --------------------*/
     
     
-    
+
     
     /*------------------- Main --------------------*/
     
