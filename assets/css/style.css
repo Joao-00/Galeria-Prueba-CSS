@@ -91,15 +91,6 @@ body{
     transition: all 0.5s ease;
 }
 
-.insta {
-    position: absolute;
-    bottom: 10px;
-}
-
-.face {
-    position: absolute;
-    bottom: 70px;
-}
 
 
 /*------------------- Main --------------------*/
@@ -179,17 +170,74 @@ footer {
     bottom: 0;
 }
 
+footer i{
+    margin: 0 10px 0 30px;
+    font-size: 20px;
+    color: black;
+}
+
 
 /*------------------- Version mobile --------------------*/
 
 @media (max-width: 768px) {
     /*------------------- General --------------------*/
-
+    /* body{
+        display: grid;
+        background: #dfe9f5;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 1fr 30px;
+        grid-template-areas: 
+        "nav"
+        "main"
+        "footer";
+        gap: 0.5em;
+        min-height: 100vh;
+    } */
 
     
     /*------------------- Navbar --------------------*/
-    
-    
+
+    /* .nav {
+        display: flex;
+        flex-direction: row;
+        transition: none;
+        position: static;
+        width: 100vh;
+        height: 70px;
+    }
+
+
+    .nav ul {
+        display: flex;
+    }
+
+
+    .nav li {
+        display: flex;
+        width: 100px;
+        height: 60px;
+    }
+
+
+
+    .a {
+        flex-direction: row;
+        width: 180px;
+    }
+
+    .fas {
+        width: 40px;
+        height: 60px;
+        top: 0;
+    }
+
+    .nav-item {
+        position: flex;
+        flex-direction: row;
+        top: 0;
+        margin-left: 0;
+    } */
+
 
     
     /*------------------- Main --------------------*/
